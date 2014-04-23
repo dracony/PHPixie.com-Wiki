@@ -47,7 +47,7 @@ Let's start:
 
 ```
 $this->assets_dirs = array();
-$this->assets_dir[] = $this->pixie->root_dir.'app/assets';
+$this->assets_dirs[] = $this->pixie->root_dir.'app/assets/';
 ```
 
 3. web/index.php: change third and fourth lines:
